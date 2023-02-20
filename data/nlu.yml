@@ -1,0 +1,172 @@
+version: "3.1"
+
+nlu:
+
+- intent: ask_definition
+  examples: |
+    - Apa bahasa Korea dari [keluarga]{"entity":"word"}?
+    - Dalam bahasa Korea [keluarga]]{"entity":"word"} itu apa?
+    - Apa itu [keluarga]]{"entity":"word"}?
+    - Apa bahasa Korea dari [kerabat]{"entity":"word"}?
+    - Dalam bahasa Korea [kerabat]{"entity":"word"} itu apa?
+    - Apa itu [kerabat]{"entity":"word"}?
+    - Apa bahasa Korea dari [aku]{"entity":"word"}?
+    - Dalam bahasa Korea [aku]{"entity":"word"} itu apa?
+    - Apa itu [aku]{"entity":"word"}?
+    - Apa bahasa Korea dari [saya]{"entity":"word"}?
+    - Dalam bahasa Korea [saya]{"entity":"word"} itu apa?
+    - Apa itu [saya]{"entity":"word"}?
+    - Apa bahasa Korea dari [kamu]{"entity":"word"}?
+    - Dalam bahasa Korea [kamu]{"entity":"word"} itu apa?
+    - Apa itu [kamu]{"entity":"word"}?
+    - Apa bahasa Korea [perempuan]{"entity":"word"}?
+    - Dalam bahasa Korea [perempuan]{"entity":"word"} itu apa?
+    - Apa itu [perempuan]{"entity":"word"}?
+    - Apa bahasa Korea dari [wanita]{"entity":"word"}?
+    - Dalam bahasa Korea [wanita]{"entity":"word"} itu apa?
+    - Apa itu [wanita]{"entity":"word"}?
+    - Apa bahasa Korea [laki-laki]{"entity":"word"}?
+    - Dalam bahasa Korea [laki-laki]{"entity":"word"} itu apa?
+    - Apa itu [laki-laki]{"entity":"word"}?
+    - Apa bahasa Korea dari [pria]{"entity":"word"}?
+    - Dalam bahasa Korea [pria]{"entity":"word"} itu apa?
+    - Apa itu [pria]{"entity":"word"}?
+    - Apa bahasa Korea dari [setiap saat]{"entity":"word"}?
+    - Dalam bahasa Korea [setiap saat]{"entity":"word"} itu apa?
+    - Apa itu [setiap saat]{"entity":"word"}?
+    - Apa bahasa Korea dari [memperkenalkan]{"entity":"word"}?
+    - Dalam bahasa Korea [memperkenalkan]{"entity":"word"} itu apa?
+    - Apa itu [memperkenalkan]{"entity":"word"}?
+    - Apa bahasa Korea dari [teman laki-laki]{"entity":"word"}?
+    - Dalam bahasa Korea [teman laki-laki]{"entity":"word"} itu apa?
+    - Apa itu [teman laki-laki]{"entity":"word"}?
+    - Apa arti dari [teman perempuan]{"entity":"word"}?
+    - Tolong tuliskan bahasa Korea dari [teman perempuan]{"entity":"word"}?
+    - Apa arti bahasa Korea dari [teman perempuan]{"entity":"word"}? 
+    - Apa bahasa Korea dari [ayah]{"entity":"word"}?
+    - Apa bahasa Korea dari [ibu]{"entity":"word"}?
+    - Apa bahasa Korea dari [adik]{"entity":"word"}?
+    - Apa bahasa Korea dari [kakak]{"entity":"word"}?
+    - Apa bahasa Korea dari [sahabat]{"entity":"word"}?
+    - Dalam bahasa Korea [sahabat]{"entity":"word"} itu apa?
+    - Apa itu [teman dekat]{"entity":"word"}?
+    - Apa bahasa Korea dari [sepupu]{"entity":"word"}?
+    - Apa bahasa  Korea tante dan [om]{"entity":"word"}?
+    - Apa bahasa Korea dari [keponakan]{"entity":"word"}?
+
+- intent: ask_synonym
+  examples: |
+    - Apa ada [kata lain]{"entity":"word", "role": "equalto"} untuk kata [keluarga]{"entity":"word", "role": "base"}?
+    - Apa ada kata dalam bahasa Korea [yang lain]{"entity":"word", "role": "equalto"} untuk [keluarga]{"entity":"word", "role": "base"}?
+    - Apakah ada bahasa Korea [yang lain]{"entity":"word", "role": "equalto"} untuk [keluarga]{"entity":"word", "role": "base"}?
+    - Apa [sinonim]{"entity":"word", "role": "equalto"} untuk [keluarga]{"entity":"word", "role": "base"} dalam bahasa Korea?
+    - Apa [kesamaan]{"entity":"word", "role": "equalto"} lain dari [keluarga]{"entity":"word", "role": "base"}?
+    - [Persamaan]{"entity":"word", "role": "equalto"} terjemahan [keluarga]{"entity":"word", "role": "base"} di korea adalah?
+    - [Persamaan]{"entity":"word", "role": "equalto"} arti [keluarga]{"entity":"word", "role": "base"} di korea adalah?
+    - Carikan [persamaan]{"entity":"word", "role": "equalto"} kata [keluarga]{"entity":"word", "role": "base"} dalam bahasa korea adalah?
+    - Perlihatkan [persamaan]{"entity":"word", "role": "equalto"} untuk [keluarga]{"entity":"word", "role": "base"} dalam bahasa korea?
+    - Perlihatkan [persamaan]{"entity":"word", "role": "equalto"} untuk [keluarga]{"entity":"word", "role": "base"} dalam bahasa korea?
+    - Arti [yang sama]{"entity":"word", "role": "equalto"} untuk [keluarga]{"entity":"word", "role": "base"} dalam bahasa korea adalah?
+
+
+- intent: greet
+  examples: |
+    - hi
+    - halo
+    - hellow
+    - halo
+    - hai
+    - selamat pagi
+    - selamat siang
+    - selamat sore
+    - apa kabar
+    - gimana kabar
+    - sehat kan
+    - ayo
+    - ayook
+    - pagii
+    - soree
+    - salam sehat
+    - assalamualaikum
+    - assalamualaikum wr wb
+    - assalamualaikum warahmatullahi wabarakatuh
+
+- intent: goodbye
+  examples: |
+    - bye
+    - sampai jumpa
+    - sampai ketemu besok
+    - sampai ketemu lagi ya
+    - selamat tinggal
+    - selamat malam
+    - dadah
+    - semoga lancar ya
+    - semoga lancar hari ini
+    - semoga dilancarkan
+    - semoga senantiasa dilancarkan
+    - sehat-sehat selalu
+    - selamat beristirahat
+    - sukses selalu
+    - waalaikumsalam
+    - waalaikumsalam warahmatullahi wabarakatuh
+    - selamat berakhir pekan
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

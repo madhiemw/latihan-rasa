@@ -1,0 +1,52 @@
+﻿session,type,ko_word,ko_sound,id_word,id_short,ko_synonym
+친구소개,명사,사람,saram,orang,orang,TBD
+친구소개,동사,있어요.,TBD,punya,punya,TBD
+친구소개,동사,있어요.,TBD,memiliki,memiliki,TBD
+친구소개,동사,없어요.,TBD,tidak punya,tidak punya,TBD
+친구소개,동사,없어요.,TBD,tidak memiliki,tidak memiliki,TBD
+친구소개,동사,연애,TBD,pacaran,pacaran,TBD
+친구소개,명사,이상형,TBD,tipe,tipe,TBD
+친구소개,명사,친구,TBD,teman,teman,TBD
+친구소개,동사,친구소개,TBD,memperkenalkan,memperkenalkan,TBD
+친구소개,명사,남자,TBD,laki-laki,laki-laki,TBD
+친구소개,명사,남자,TBD,pria,pria,TBD
+친구소개,명사,여자,TBD,wanita,wanita,TBD
+친구소개,명사,여자,TBD,perempuan,perempuan,TBD
+친구소개,명사,남자친구,TBD,teman pria (pacar laki-laki),teman pria,TBD
+친구소개,명사,여자친구,TBD,teman wanita (pacar perempuan),teman wanita,TBD
+친구소개,명사,남사친,TBD,teman akrab (pria),"teman akrab ",TBD
+친구소개,명사,여사친,TBD,teman akrab (wanita),"teman akrab ",TBD
+친구소개,형용사,많다,TBD,banyak,banyak,TBD
+친구소개,동사,좋아해요,TBD,menyukai,menyukai,TBD
+친구소개,명사,썸,TBD,gebetan (TTM),gebetan,TBD
+친구소개,동사,썸을 타다,TBD,punya gebetan (TTM-an),"punya gebetan ",TBD
+이상형(성향/특징),명사,이상형,TBD,tipe,tipe,TBD
+이상형(성향/특징),명사,성향,TBD,kepribadian (karakter),"kepribadian ",TBD
+이상형(성향/특징),명사,특징,TBD,ciri khas,ciri khas,TBD
+이상형(성향/특징),명사,남자,TBD,pria,pria,TBD
+이상형(성향/특징),명사,여자,TBD,wanita,wanita,TBD
+이상형(성향/특징),형용사,친절한,TBD,ramah,ramah,TBD
+이상형(성향/특징),형용사,다정한,TBD,hangat,hangat,TBD
+이상형(성향/특징),형용사,상냥한,TBD,lemah lembut,lemah lembut,TBD
+이상형(성향/특징),형용사,똑똑한,TBD,pintar/pandai,pintar/pandai,TBD
+이상형(성향/특징),부사,어떤,TBD,bagaimana,bagaimana,TBD
+이상형(성향/특징),부사,무엇,TBD,apa,apa,TBD
+이상형(성향/특징),명사,사과,TBD,apel,apel,TBD
+이상형(성향/특징),동사,먹다,TBD,makan,makan,TBD
+이상형(성향/특징),형용사,맛있다,TBD,enak/lezat,enak/lezat,TBD
+이상형(성향/특징),동사,좋아해요,TBD,menyukai,menyukai,TBD
+한국어 초급,명사,가족,gajok,keluarga,keluarga,식구
+한국어 초급,명사,친척,chincok,kerabat,kerabat,TBD
+한국어 초급,명사,나,na,aku,aku,TBD
+한국어 초급,명사,저,jeo,saya,saya,TBD
+한국어 초급,명사,너,neo,kamu,kamu,TBD
+한국어 초급,명사,언제나,eonjena,setiap saat,setiap saat,TBD
+TBD,명사,아버지,abeoji,ayah,ayah,TBD
+TBD,명사,어머니,eomeoni,ibu,ibu,TBD
+TBD,명사,남동생,namdongsaeng,adik,adik,TBD
+TBD,명사,형,hyeong,kakak,kakak,TBD
+TBD,명사,친구,chingu,sahabat,sahabat,TBD
+TBD,명사,친한 친구,chinhan chingu,teman dekat,teman dekat,TBD
+TBD,명사,사촌,sachon,sepupu,sepupu,TBD
+TBD,명사,어머나,eomeona,om,om,TBD
+TBD,명사,조카,joka,keponakan,keponakan,TBD

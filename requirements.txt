@@ -1,0 +1,2 @@
+rasa[full]
+nlp-id==0.1.13.0
